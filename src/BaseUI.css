@@ -1,0 +1,285 @@
+/* for Tags Default Styling */
+*{
+    margin: 0;
+    padding: 0px;
+}
+.body{
+    width: 100vw;
+    height: 100vh;
+}
+select,button{
+    min-height:35px;
+    min-width:140px;
+    padding: 2px 5px;
+    font-size: 15px;
+    margin:5px
+}
+button{
+    min-width: 90px;
+}
+input{
+    min-height:25px;
+    min-width:100px;
+    padding: 2px 5px;
+    font-size: 15px;
+    margin:5px
+
+}
+
+/* custom classes for UI */
+
+.row{
+    display: flex;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    width: 100vw;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    padding: 2%;
+    background-color: aliceblue;
+}
+.flexStart{
+    justify-content: flex-start;
+}
+
+.flexEnd{
+    justify-content: flex-end;
+}
+.flexAIC{
+    align-items: center;
+}
+.flexJCC{
+    justify-content: center;
+}
+.flexSB{
+    justify-content: space-between;
+}
+.flexSA{
+    justify-content: space-Around;
+}
+.flexSE{
+    justify-content: space-evenly;
+}
+.margin20{
+    margin: 20px;
+}
+.card{
+    padding: 15px;
+    min-width: 10%;
+    min-height: 10%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5% 1% .5% 1%;
+    position: absolute;
+    top: 0;
+    max-height: 50px;
+    height: 7%; 
+}
+.navBody{
+    margin-top: 50px;
+    width: 100%;
+    
+}
+.btn
+{
+    min-width: 60px;
+    min-height: 37px;
+    padding: 5px 8px 5px 8px;
+    outline: 1px solid whitesmoke;
+    font-size: 19px;
+    border-radius: 5px;   
+    border: none;
+    outline: none;background-color: white;
+}
+.logo{
+max-height:100% ;
+padding: 2%;
+}
+
+.link
+{
+    color: white;
+    background-color: #4500ff;
+}
+.btn-trans
+{
+    color: white;
+    background-color: transparent;
+}
+.btn-success
+{
+    color: white;
+    background-color: rgb(10, 173, 10);
+}
+.btn-black{
+    color: white;
+    background-color: #303030;
+}
+.btn-warning
+{
+    background-color: #ffee00;
+}
+.btn-danger
+{
+    color: white;
+    background-color: #d80000;
+}
+.btn-info
+{
+    color: white;
+    background-color: #008dce;
+}
+
+.searchbox
+{
+    height:90%;
+    border:1px solid rgb(189, 189, 189);
+    border-radius:5px;
+    display: flex;
+    align-items: center;  
+    justify-content: space-between;
+   width: 52%;
+   background-color: white;
+   overflow: hidden;
+   padding: 0px 0.4%;
+}
+.searchbox input
+{
+    width: 88%;
+    height: 97%;
+    font-size: 20px;
+    border: none;
+}
+.border-outline-none{
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    outline: none;
+
+}
+.btn:active {
+    -webkit-box-shadow: inset 1px 1px 10px #333;
+    -moz-box-shadow:    inset 1px 1px 10px #333;
+    box-shadow:         inset 1px 1px 10px #333;
+ }
+.searchbox input:hover,.searchbox input:focus{
+    outline: none;
+
+}
+.hamburger{
+    font-size: 25px;
+}
+.w100{
+    width: 100%;
+}
+.w50{
+    width: 50%;
+}
+.w33{
+    width: 33%;
+}
+.w20
+{
+    width: 20%;
+}
+.w60{
+    width: 60%;
+}
+.p1{
+    padding: 1% ;
+}
+.p3
+{
+    padding: 3%;
+}
+.p5{
+    padding: 5%;
+}
+.m1{
+    margin: 1%;
+}
+.m2{
+    margin: 2%;
+}
+.m3{
+    margin: 3%;
+}
+.m5
+{
+    margin: 5%;
+}
+.mbg1{
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+}
+.mbg2{
+    background: linear-gradient(-70deg, #fa7c30 30%, rgba(0, 0, 0, 0) 30%);
+}
+.lbg1{
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+}
+.lbg2{
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+}
+.lbg3{
+    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+}
+.lbg4{
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}
+.dbg1{
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+.dbg2{
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+.bgWhite{
+    background-color: white;
+    color: black;
+}
+.bgBlack{
+    color: white;
+    background-color: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%);
+}
+.bRd5{
+border-radius: 5px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5% 1% .5% 1%;
+    width: 98%;
+   min-height: 120px;
+    height: 7%; 
+}
+.footerBody{
+    margin-top: 50px;
+    width: 100;
+    
+}
+.fclBlack{
+    color: black;
+}
+
+.fclWhite{
+    color: white;
+}
+/* D-styling */
